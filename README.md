@@ -1,2 +1,2 @@
 # data-analysis-protfolio
-Consists of my past projects using Excel, Python, and R
+Consists of my past projects using Python, Java, R, and Excel
