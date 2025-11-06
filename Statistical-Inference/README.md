@@ -1,4 +1,4 @@
-##🧑🏾‍⚖️ Jury Selection Bias Simulation — Swain v. Alabama (1965)##
+#🧑🏾‍⚖️ Jury Selection Bias Simulation — Swain v. Alabama (1965)
 **🎯 Project Overview**
 
 This project analyzes whether the racial makeup of the jury panel in Swain v. Alabama (1965) could have occurred by random chance.
