@@ -4,7 +4,7 @@ This folder contains three simulation-based inference projects that apply hypoth
 
 ---
 
-## 🧑🏾‍⚖️ Jury Selection Bias Simulation — *Swain v. Alabama (1965)*
+## Jury Selection Bias Simulation — *Swain v. Alabama (1965)*
 
 **Overview:**  
 Analyzes whether the racial makeup of the jury panel in *Swain v. Alabama* could have occurred by chance.  
@@ -22,7 +22,7 @@ The p-value was near 0, providing strong evidence that the jury selection proces
 
 ---
 
-## 🍼 Maternal Age and Smoking: Effects on Infant Birth Outcomes
+## Maternal Age and Smoking: Effects on Infant Birth Outcomes
 
 **Overview:**  
 Explores how maternal factors — age and smoking status — affect infant birth weight and gestational duration.
@@ -42,7 +42,7 @@ Maternal smoking is associated with lower birth weights, and bootstrapping metho
 
 ---
 
-## 🐬 A/B Testing Simulation — Dolphin Therapy and Depression
+## A/B Testing Simulation — Dolphin Therapy and Depression
 
 **Overview:**  
 Uses an A/B testing framework to test whether swimming with dolphins improves symptoms of depression.  
