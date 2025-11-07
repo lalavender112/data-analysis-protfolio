@@ -58,7 +58,26 @@ The p-value (≈ 0.013) indicates the observed difference is highly unlikely und
 
 📁 *File:* `dolphin_ab_test.ipynb`
 
+
 ---
+Death Penalty and Murder Rates — Randomization Simulation
+**Overview**
+
+This analysis explores whether U.S. states with the death penalty have lower murder rates than those without, using 1971 data.
+
+**Hypotheses**
+
+H₀: Murder rates are the same in states with and without the death penalty.
+
+H₁: States with the death penalty have lower murder rates.
+
+**Method**
+
+A randomization (permutation) test shuffles “death penalty” labels among states to simulate what differences would look like under random chance.
+
+**Conclusion**
+
+The observed difference in mean murder rates was not likely due to random variation, suggesting an association between the death penalty and higher murder rates.
 
 ## 🧰 Tools & Techniques
 - **Python Libraries:** NumPy, Matplotlib, datascience (UC Berkeley Data 8 library)  
