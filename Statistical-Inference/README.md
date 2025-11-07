@@ -1,6 +1,6 @@
 # 📊 Statistical Inference Projects
 
-This folder contains two simulation-based inference projects that apply hypothesis testing and bootstrapping techniques to real-world data.
+This folder contains three simulation-based inference projects that apply hypothesis testing, A/B testing, and bootstrapping techniques to real-world data.
 
 ---
 
@@ -38,13 +38,31 @@ Maternal smoking is associated with lower birth weights, and bootstrapping metho
 📁 *Files:*  
 - `baby.csv`  
 - `maternal_age_smoke.pdf`  
-- `maternal_age_analysis.ipynb` *(to be added)*
+- `maternal_age_analysis.ipynb`
+
+---
+
+## 🐬 A/B Testing Simulation — Dolphin Therapy and Depression
+
+**Overview:**  
+Uses an A/B testing framework to test whether swimming with dolphins improves symptoms of depression.  
+In a randomized controlled trial, 10 of 13 patients who swam with dolphins showed improvement, compared to 3 of 12 who swam without them.
+
+**Methods:**  
+- Randomly assigned participants to two treatment groups (dolphin vs. control).  
+- Simulated 10,000 random reassignments to estimate how often such a difference could occur by chance.  
+- Conducted a simulation-based hypothesis test comparing improvement proportions.  
+
+**Conclusion:**  
+The p-value (≈ 0.013) indicates the observed difference is highly unlikely under random assignment, suggesting a real therapeutic benefit of dolphin-assisted therapy.
+
+📁 *File:* `dolphin_ab_test.ipynb`
 
 ---
 
 ## 🧰 Tools & Techniques
 - **Python Libraries:** NumPy, Matplotlib, datascience (UC Berkeley Data 8 library)  
-- **Statistical Methods:** Simulation, Hypothesis Testing, Bootstrapping, Confidence Intervals  
+- **Statistical Methods:** Simulation, A/B Testing, Hypothesis Testing, Bootstrapping, Confidence Intervals  
 
 ---
 
