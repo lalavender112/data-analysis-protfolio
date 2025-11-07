@@ -1,54 +1,54 @@
+# 📊 Statistical Inference Projects
 
-# 🧑🏾‍⚖️ Jury Selection Bias Simulation — Swain v. Alabama (1965)
+This folder contains two simulation-based inference projects that apply hypothesis testing and bootstrapping techniques to real-world data.
 
+---
 
-**🎯 Project Overview**
+## 🧑🏾‍⚖️ Jury Selection Bias Simulation — *Swain v. Alabama (1965)*
 
-This project analyzes whether the racial makeup of the jury panel in Swain v. Alabama (1965) could have occurred by random chance.
-Robert Swain, a Black man from Talladega County, Alabama, was convicted by an all-white jury.
-Although 26% of eligible jurors in the county were Black, only 8 out of 100 men on Swain’s panel were Black.
-Using simulation and bootstrapping, this project tests whether the jury selection process was likely to be fair.
+**Overview:**  
+Analyzes whether the racial makeup of the jury panel in *Swain v. Alabama* could have occurred by chance.  
+Although 26% of eligible jurors were Black, only 8 of 100 on the panel were — suggesting underrepresentation.
 
-**🧮 Methodology**
+**Methods:**  
+- Simulated 10,000 random jury panels under a fair selection model (26% Black).  
+- Computed how often 8 or fewer Black jurors appeared by chance.  
+- Used bootstrapping to estimate variability in the observed 8%.  
 
-Hypotheses:
+**Conclusion:**  
+The p-value was near 0, providing strong evidence that the jury selection process was biased and not random.
 
-Null Hypothesis (H₀): Jurors were selected randomly from a population that is 26% Black.
+📁 *File:* `swain_simulation.ipynb`
 
-Alternative Hypothesis (H₁): The selection underrepresented Black jurors and was not random.
+---
 
-Steps performed:
+## 🍼 Maternal Age and Smoking: Effects on Infant Birth Outcomes
 
-Simulated 10,000 random jury panels of 100 men under fair selection (26% Black).
+**Overview:**  
+Explores how maternal factors — age and smoking status — affect infant birth weight and gestational duration.
 
-Calculated how often a panel with 8 or fewer Black jurors would occur by chance.
+**Methods:**  
+- Performed simulation-based hypothesis testing for categorical data.  
+- Built bootstrap confidence intervals for both proportions and means.  
+- Compared smoking vs. non-smoking mothers using real birth data.
 
-Used bootstrapping on Swain’s observed panel (8% Black) 10,000 times to estimate variability.
+**Conclusion:**  
+Maternal smoking is associated with lower birth weights, and bootstrapping methods provided robust confidence intervals for mean maternal age and outcome differences.
 
-Compared the bootstrap and null distributions to visualize bias.
+📁 *Files:*  
+- `baby.csv`  
+- `maternal_age_smoke.pdf`  
+- `maternal_age_analysis.ipynb` *(to be added)*
 
-**📊 Results**
+---
 
-The null distribution (🟡 yellow) centers near 26 Black jurors per panel, as expected under fair random selection.
+## 🧰 Tools & Techniques
+- **Python Libraries:** NumPy, Matplotlib, datascience (UC Berkeley Data 8 library)  
+- **Statistical Methods:** Simulation, Hypothesis Testing, Bootstrapping, Confidence Intervals  
 
-The bootstrap distribution (🔵 blue) centers near 8, matching Swain’s actual panel.
+---
 
-The p-value for obtaining 8 or fewer Black jurors under fair selection is extremely small (close to 0).
-
-**✅ Interpretation:**
-Such an extreme outcome is highly unlikely to occur by chance, providing strong evidence that the jury selection process was biased.
-
-**🧾 Conclusion**
-
-The simulation provides strong statistical evidence that Swain’s jury was not randomly selected.
-The significant underrepresentation of Black jurors indicates a systematic exclusion, not random variation, in the selection process.
-
-**🧰 Tools Used**
-
-Python Libraries: NumPy, Data 8 Tables, Matplotlib
-
-Techniques: Simulation, Hypothesis Testing, Bootstrapping, Confidence Intervals
-
-**📁 Files**
-
-swain_simulation.ipynb — Jupyter Notebook containing the analysis and visualizations
+## 🧑‍💻 Author
+**Melissa Chen**  
+Data Science & Economics | UNC-Chapel Hill  
+📫 [Your Email or GitHub Profile Link]
