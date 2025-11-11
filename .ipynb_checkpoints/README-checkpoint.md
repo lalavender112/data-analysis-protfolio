@@ -19,7 +19,7 @@ Sampling, bootstrapping, and hypothesis testing.
 Simple and multiple regression to predict outcomes and interpret relationships.  
 *Example:* Housing price prediction using economic and housing features.
 
-### 4. Prediction
+### 4. Machine Learning
 Applying basic machine learning models.  
 *Example:* K-nearest neighbors and decision trees.
 
